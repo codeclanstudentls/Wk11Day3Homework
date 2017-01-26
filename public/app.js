@@ -24,7 +24,7 @@ var populateList = function(albums) {
       var li = document.createElement('artists');
       li.innerText = album.artists;
       albumList.appendChild(artists);
-
+ 
     });
  }    
 
